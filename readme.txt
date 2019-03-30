@@ -22,7 +22,7 @@ Currently there're 3 constants you can configure in your `wp-config.php`, I reco
 
 - `MAHR_LENGTH`: length of the random hashes, (default to `8`), longer can help reduce collision. Hashes at the length of 8 can be collision-free at the scale of 50,000 images).
 - `MAHR_CHARS`: Characters used in hashes, default to `0123456789abcdefghijklmnopqrstuvwxyz_`, You can add more characters like uppercased alphabelts to dramatically reduce the collision without increasing the length of your filenames. But please note that this option can be dangerous if you're not familer with general URI encoding. So if you don't know what characters are allowed in a filename, just keep it untouched and use the default option.
-- `MAHR_CHARS`: File extensions to be ignored, default to `pdf, zip`, you can define a comma delimited list of file extensions to bypass renaming process of this plugin. All files that has the file extension you defined in the list will be ignored. Please note that:
+- `MAHR_IGNORE`: File extensions to be ignored, default to `pdf, zip`, you can define a comma delimited list of file extensions to bypass renaming process of this plugin. All files that has the file extension you defined in the list will be ignored. Please note that:
   - File extensions must be defined without the leading peroid, for example: `'pdf, 7z, bmp'` works, `'.pdf, .7z, .bmp'` does not.
   - With (`'pdf, zip'`) or without (`'pdf,zip'`) space both work.
   - If you define your own ignore list, default ignore list will be discarded. For example, if you define `'7z'`, then `'pdf, zip'` will be processed during upload. You need to reapply these extensions with your own: `'7z, pdf, zip'`.
