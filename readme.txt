@@ -12,7 +12,7 @@ Rename media filename during upload with unique hash.
 
 == Description ==
 
-Media Auto Hash Rename will rename any file (specific files can be ignored by file extension) during upload, with unique, low collision hases. Hash characters and length can be configured for even lower collision rate.
+Media Auto Hash Rename will rename any file (specific files can be ignored by file extension) during upload, with unique, low collision hashes. Hash characters and length can be configured for even lower collision rate.
 
 More information please visit my [site](https://sparanoid.com/work/media-auto-hash-rename/).
 
