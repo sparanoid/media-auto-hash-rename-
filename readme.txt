@@ -4,7 +4,7 @@ Donate link: https://sparanoid.com/donate/
 Tags: admin, administration, media, file, files, rename, renaming
 Requires at least: 4.0
 Tested up to: 5.8
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,10 +47,16 @@ This pluigin, doesn't not write any extra data into your database. The files ren
 
 == Upgrade Notice ==
 
+= 1.0.1 =
+* Compatibility check for 5.8, nothing new, just bump version to tell everyone this plugin still works.
+
 = 1.0.0 =
 * First release
 
 == Changelog ==
+
+= 1.0.1 =
+* Compatibility check for 5.8, nothing new, just bump version to tell everyone this plugin still works.
 
 = 1.0.0 =
 * First release

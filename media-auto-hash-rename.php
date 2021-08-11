@@ -3,7 +3,7 @@
  * Plugin Name: Media Auto Hash Rename
  * Plugin URI:  https://wordpress.org/plugins/media-auto-hash-rename/
  * Description: Rename media filename during upload with unique hash
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Tunghsiao Liu
  * Author URI:  https://sparanoid.com/
  * Text Domain: wporg
